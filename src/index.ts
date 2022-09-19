@@ -1,1 +1,1 @@
-console.log('minimal typescript starter')
+console.log('minimal typescript starter');
