@@ -1,14 +1,15 @@
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'prettier'],
   extends: [
-    "plugin:@shopify/esnext",
+    'plugin:@shopify/esnext',
     'eslint:recommended',
-    'plugin:@typescript-eslint/eslint-recommended',
-    'plugin:@typescript-eslint/recommended'
+    'plugin:@typescript-eslint/recommended',
+    'prettier',
   ],
   rules: {
-    'no-console': 2
-  }
-}
+    'no-console': 1,
+    'prettier/prettier': 2,
+  },
+};

@@ -4,12 +4,13 @@
     "source.fixAll.eslint": true
   },
   "eslint.validate": ["javascript", "typescript"],
+  "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "[javascript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
   },
   "[typescript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
   },
   "[markdown]": {
     "editor.formatOnSave": false
