@@ -1,4 +1,4 @@
-import math from './mathematic';
+import { Mathematic } from './mathematic';
 
 console.log('minimal typescript starter');
-console.log(`The answer is: ${math.add(2, 3)}`);
+console.log(`The answer is: ${Mathematic.add(2, 3)}`);

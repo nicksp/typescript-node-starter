@@ -1,7 +1,7 @@
-import math from './mathematic';
+import { Mathematic } from './mathematic';
 
 describe('Test Description', () => {
   it('TestName', () => {
-    expect(math.add(2, 3)).toBe(5);
+    expect(Mathematic.add(2, 3)).toBe(5);
   });
 });
