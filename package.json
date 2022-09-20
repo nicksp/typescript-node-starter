@@ -2,13 +2,14 @@
   "name": "typescript-node-starter",
   "version": "1.0.0",
   "description": "A minimal boilerplate for Node.js web applications written in TypeScript.",
-  "main": "index.js",
+  "main": "./build/index.js",
   "scripts": {
     "start": "npm run build && node build/index.js",
     "build": "rimraf ./build && tsc",
     "dev": "nodemon",
-    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
-    "lint": "eslint . --ext .ts",
+    "pretty": "prettier --config .prettierrc 'src/**/*.ts'",
+    "pretty:fix": "npm run pretty -- --write",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "npm run lint -- --fix",
     "test": "jest",
     "test:watch": "jest --watchAll",
@@ -19,7 +20,7 @@
     "url": "git+https://github.com/nicksp/typescript-node-starter.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Nick Khan",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nicksp/typescript-node-starter/issues"

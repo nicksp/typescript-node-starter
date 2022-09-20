@@ -12,6 +12,10 @@ module.exports = {
     node: true,
     jest: true,
   },
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+  },
   settings: {
     'import/resolver': {
       node: {

@@ -1,3 +1,7 @@
+/**
+ * This is a typescript configuration file.
+ * See options https://www.typescriptlang.org/tsconfig
+ */
 {
   "compilerOptions": {
     "target": "es6",
@@ -11,6 +15,7 @@
     "types": ["node", "jest"],
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "allowUnreachableCode": false,
     "resolveJsonModule": true,
     "noImplicitAny": true,
     "sourceMap": true

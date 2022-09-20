@@ -30,7 +30,7 @@ cd <project_name>
 npm install
 ```
 
-- Build and run the project
+- Generate production build and run the project
 
 ```bash
 npm start
@@ -40,6 +40,26 @@ npm start
 
 ```bash
 npm run dev
+```
+
+- Linting
+
+```bash
+npm run lint
+npm run lint:fix
+```
+
+- Code formatting
+
+```bash
+npm run pretty
+npm run pretty:fix
+```
+
+- Testing
+
+```bash
+npm test
 ```
 
 ## Sources
